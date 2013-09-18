@@ -1,4 +1,46 @@
 @import url(http://fonts.googleapis.com/css?family=Gudea);
+#nav_top > ul {
+  float: left;
+  list-style: none; }
+  #nav_top > ul li {
+    display: inline;
+    margin-right: 25px; }
+    #nav_top > ul li a {
+      text-decoration: none;
+      color: #343434;
+      font-weight: bold; }
+
+#nav_top > img {
+  margin-top: 7px; }
+
+#nav_top > ul > li > a:hover {
+  color: #9a9a9a; }
+
+.link_color {
+  color: #409f89; }
+
+.link_color:hover {
+  color: #9a9a9a; }
+
+.float_right {
+  float: right; }
+
+#nav_bottom {
+  border-bottom: 1px solid #9a9a9a; }
+
+#nav_bottom > ul {
+  float: left;
+  list-style: none; }
+  #nav_bottom > ul li {
+    display: inline;
+    margin-right: 25px; }
+    #nav_bottom > ul li a {
+      text-decoration: none;
+      color: #343434; }
+
+.float_right > a > img {
+  margin-top: 3px; }
+
 body, html {
   background-color: #dee0df;
   font-family: "Gudea", sans-serif; }
