@@ -1,0 +1,27 @@
+@import 'colors';
+@import 'fonts';
+@import 'header';
+@import 'navbar';
+@import 'content';
+@import 'footer';
+
+// Universal Styling
+
+body, html {
+  background-color: $primary_color;
+  font-family: $primary_font;
+}
+
+#colorbar {
+  height: 3px;
+  background-color: $text_color;
+}
+
+#main {
+  width: 960px;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+}
