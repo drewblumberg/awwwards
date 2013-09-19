@@ -43,36 +43,85 @@
       line-height: 30px;
     }
 
-    span li:nth-of-type(1) /*1st row 1st li*/
+    span li:nth-of-type(1)
     {
       color: $text_color;
       display:inline-block;
       width:153px;
+      background-color: transparent;
     }
 
-    span li :nth-of-type(2) /*2nd row 1st li only*/
+    span li:nth-of-type(2)
     {
       color: $link_color;
       display:inline-block;
       width:195px;
-      background-color: white;
+      background-color: transparent;
     }
 
     span li:nth-of-type(3)
     {
-      color: red;
+      color: $text_color;
       display:inline-block;
       width:104px;
-      background-color: black;
+      background-color: transparent;
     }
 
     span li:nth-of-type(4)
     {
-      color: red;
+      color: white;
       display:inline-block;
       width:110px;
-      background-color: black;
+      background-color: transparent;
     }
+      .circle_1
+      {
+        width:16px;
+        height:16px;
+        color: #fff;
+        border-radius:50%;
+        background-color: $orange_red;
+        float:left;
+        font-size:.8em;
+        line-height: 17px;
+        text-align: center;
+      }
+      .circle_2
+      {
+        width:16px;
+        height:16px;
+        color: #fff;
+        border-radius:50%;
+        background-color: $gold;
+        float:left;
+        font-size:.8em;
+        line-height: 17px;
+        text-align: center;
+      }
+      .circle_3
+      {
+        width:16px;
+        height:16px;
+        color: #fff;
+        border-radius:50%;
+        background-color: $greenish;
+        float:left;
+        font-size:.8em;
+        line-height: 17px;
+        text-align: center;
+      }
+      .circle_4
+      {
+        width:16px;
+        height:16px;
+        color: #fff;
+        border-radius:50%;
+        background-color: $ocean_blue;
+        float:left;
+        font-size:.8em;
+        line-height: 17px;
+        text-align: center;
+      }
 
     span li:nth-of-type(5)
     {
