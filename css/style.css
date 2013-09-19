@@ -38,6 +38,24 @@ header #tagline {
   margin-top: 33px;
   margin-right: 255px; }
 
+footer {
+  margin-top: 50px; }
+  footer .star-block {
+    float: left; }
+    footer .star-block:first-child {
+      margin-right: 29px; }
+    footer .star-block:nth-child(2) {
+      margin-right: 30px; }
+    footer .star-block:nth-child(3) {
+      margin-right: 29px; }
+    footer .star-block p {
+      margin: 0;
+      padding: 0;
+      line-height: 26px; }
+  footer .author {
+    font-size: 0.9em;
+    color: #409f89; }
+
 body, html {
   background-color: #dee0df;
   font-family: "Gudea", sans-serif; }
