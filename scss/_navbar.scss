@@ -61,6 +61,11 @@
   {
     display: inline;
     margin-right: 25px;
+-webkit-transition: rgb(154,154,154) .2s ease-in-out;
+-moz-transition: rgb(154,154,154) .2s ease-in-out;
+-ms-transition: rgb(154,154,154) .2s ease-in-out;
+-o-transition: rgb(154,154,154) .2s ease-in-out;
+transition: rgb(154,154,154) .2s ease-in-out;
 
     a
     {
