@@ -47,7 +47,8 @@
 .float_right > a > img {
   margin-top: 3px;
   padding-bottom: 0px;
-  border-bottom: 1px solid #9a9a9a; }
+  border-bottom: 1px solid #9a9a9a;
+  width: 585px; }
 
 .border {
   border-bottom: 1px solid #9a9a9a; }
