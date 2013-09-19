@@ -1,4 +1,59 @@
 @import url(http://fonts.googleapis.com/css?family=Gudea);
+#content {
+  padding: 40px 0px 40px 0px;
+  font-size: .9em; }
+  #content #left_content_pic {
+    background-image: url(../images/content_pic.jpg);
+    width: 459px;
+    height: 287px;
+    float: left; }
+  #content #transform_circles {
+    background: url(../images/transform_circles.png);
+    width: 112px;
+    height: 292px;
+    float: left;
+    opacity: 50%; }
+  #content #right_content {
+    width: 611px;
+    height: 314px;
+    float: left;
+    position: relative;
+    text-align: justify; }
+  #content ul {
+    padding: 0px; }
+  #content span {
+    width: 611px;
+    float: left;
+    border-bottom: 1px solid #d5d7d6; }
+  #content span li {
+    display: inline;
+    line-height: 30px; }
+  #content span li:nth-of-type(1) {
+    color: green;
+    display: inline-block;
+    width: 153px;
+    background-color: black; }
+  #content span li:nth-of-type(2) {
+    color: red;
+    display: inline-block;
+    width: 195px;
+    background-color: black; }
+  #content span li:nth-of-type(3) {
+    color: red;
+    display: inline-block;
+    width: 104px;
+    background-color: black; }
+  #content span li:nth-of-type(4) {
+    color: red;
+    display: inline-block;
+    width: 110px;
+    background-color: black; }
+  #content span li:nth-of-type(5) {
+    color: red;
+    display: inline-block;
+    width: 49px;
+    background-color: black; }
+
 body, html {
   background-color: #dee0df;
   font-family: "Gudea", sans-serif; }
@@ -8,7 +63,7 @@ body, html {
   background-color: #343434; }
 
 #main {
-  width: 960px;
+  width: 1182px;
   margin: auto; }
 
 .clear {
