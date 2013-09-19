@@ -84,7 +84,7 @@ and for the li, the ul padding made it
 
 #nav_bottom > ul li {
   display: inline;
-  padding: 15px 10px 15px 0px;
+  padding: 15px 47px 15px 0px;
                             /*adjust as needed you needed
 padding here and in the ul hope this works*/
   /*margin-right: 25px; margin is not needed when trying to push out from the inside :)*/
@@ -97,7 +97,7 @@ padding here and in the ul hope this works*/
 
 .float_right > a > img {
   margin-top: 3px;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
   border-bottom: 1px solid #9a9a9a; }
 
 .border {
