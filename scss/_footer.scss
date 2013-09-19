@@ -12,6 +12,13 @@ footer {
     &:nth-child(3) {
         margin-right: 29px;
     }
+    &:nth-child(4) {
+      padding-right:1px;
+    }
+    &:nth-child(5) {
+        float:left;
+        margin-right: 0px;
+    }
     p {
       margin:0;
       padding: 0;
