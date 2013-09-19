@@ -56,10 +56,12 @@
   padding-bottom: 12px;
   list-style: none;
   border-bottom:1px solid $hover_color;
+
   li
   {
     display: inline;
     margin-right: 25px;
+
     a
     {
       text-decoration: none;
@@ -72,7 +74,7 @@
 .float_right > a > img
 {
   margin-top: 3px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   border-bottom: 1px solid $hover_color;
 }
 
@@ -86,4 +88,3 @@
   border-right: 1px solid $hover_color;
   margin-right: 15px;
 }
-
