@@ -1,4 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Gudea);
+#nav_top {
+  border-bottom: 1px solid #9a9a9a; }
+
 #nav_top > ul {
   float: left;
   list-style: none; }
@@ -30,16 +33,28 @@
 
 #nav_bottom > ul {
   float: left;
-  list-style: none; }
+  padding-bottom: 12px;
+  list-style: none;
+  border-bottom: 1px solid #9a9a9a; }
   #nav_bottom > ul li {
     display: inline;
     margin-right: 25px; }
     #nav_bottom > ul li a {
       text-decoration: none;
-      color: #343434; }
+      color: #343434;
+      font-size: 14px; }
 
 .float_right > a > img {
-  margin-top: 3px; }
+  margin-top: 3px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #9a9a9a; }
+
+.border {
+  border-bottom: 1px solid #9a9a9a; }
+
+.nav_bottom_left {
+  border-right: 1px solid #9a9a9a;
+  margin-right: 15px; }
 
 body, html {
   background-color: #dee0df;
