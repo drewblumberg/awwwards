@@ -1,4 +1,43 @@
 @import url(http://fonts.googleapis.com/css?family=Gudea);
+header ul {
+  list-style: none;
+  margin-top: 6px;
+  padding: 0;
+  text-transform: uppercase;
+  float: right; }
+  header ul li {
+    float: left;
+    border-right: 1px solid #343434;
+    padding: 0 7px 0 7px;
+    font-weight: lighter; }
+    header ul li:hover {
+      cursor: pointer; }
+    header ul li:last-child {
+      border: none; }
+header .login {
+  float: right;
+  background-color: #343434;
+  padding: 6px 20px 10px 20px;
+  color: #dee0df; }
+  header .login .login-link {
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer; }
+header img.social {
+  margin-top: 1px; }
+header #logo {
+  float: left;
+  background: url(../images/logo.png);
+  height: 56px;
+  width: 288px;
+  margin-top: 8px; }
+header #tagline {
+  float: right;
+  color: #343434;
+  font-size: 0.9em;
+  margin-top: 33px;
+  margin-right: 255px; }
+
 body, html {
   background-color: #dee0df;
   font-family: "Gudea", sans-serif; }

@@ -1,0 +1,53 @@
+header {
+  ul {
+    list-style: none;
+    margin-top: 6px;
+    padding: 0;
+    text-transform: uppercase;
+    float: right;
+    li {
+      float: left;
+      border-right: 1px solid $text-color;
+      padding: 0 7px 0 7px;
+      font-weight: lighter;
+      &:hover {
+        cursor: pointer;
+      }
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+
+  .login {
+    float: right;
+    background-color: $text-color;
+    padding: 6px 20px 10px 20px;
+    color: $primary-color;
+    .login-link {
+      color: white;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+
+  img.social {
+    margin-top: 1px;
+  }
+
+  #logo {
+    float: left;
+    background: url(../images/logo.png);
+    height: 56px;
+    width: 288px;
+    margin-top: 8px;
+  }
+
+  #tagline {
+    float: right;
+    color: $text-color;
+    font-size: 0.9em;
+    margin-top: 33px;
+    margin-right: 255px;
+  }
+}
