@@ -146,27 +146,88 @@
     {
       width: 100%;
       position: relative;
-      background-color: $gold;
+      background-color: transparent;
       // padding-top:24px;
       float:left;
     }
 
       #artist_credit
       {
-        width:300px;
-        height:11px;
+        width:350px;
+        height:18px;
         float:left;
-        background-color: $ocean_blue;
       }
+        #artist_credit span
+        {
+          color: $link_color;
+        }
 
-      #artist_list
+      #artist_list li
       {
-        width:300px;
+        width:500px;
         height:11px;
         float:right;
         background-color: $greenish;
+        position: relative;
       }
 
+        .font_pad
+        {
+          margin-top:10px;
+        }
+          .a_circle_1
+          {
+            width:8px;
+            height:8px;
+            color: $text_color;
+            border-radius:50%;
+            background-color: $orange_red;
+            float:right;
+            font-size:.8em;
+            line-height: 17px;
+            text-align: right;
+
+          }
+          .a_circle_2
+          {
+            width:8px;
+            height:8px;
+            color: $text_color;
+            border-radius:50%;
+            background-color: $gold;
+            float:right;
+            font-size:.8em;
+            line-height: 17px;
+            text-align: right;
+            margin-right:50px;
+          }
+          .a_circle_3
+          {
+            width:8px;
+            height:8px;
+            color: $text_color;
+            border-radius:50%;
+            background-color: $greenish;
+            float:right;
+            font-size:.8em;
+            line-height: 17px;
+            text-align: right;
+            margin-right:50px;
+          }
+          .a_circle_4
+          {
+            width:8px;
+            height:8px;
+            color: $text_color;
+            border-radius:50%;
+            background-color: $ocean_blue;
+            float:right;
+            font-size:.8em;
+            line-height: 17px;
+            text-align: right;
+            margin-right:50px;
+
+          }
 
 
 

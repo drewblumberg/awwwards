@@ -104,18 +104,65 @@
   #content #content_bottom {
     width: 100%;
     position: relative;
-    background-color: #ecd06f;
+    background-color: transparent;
     float: left; }
   #content #artist_credit {
-    width: 300px;
-    height: 11px;
-    float: left;
-    background-color: #1a99aa; }
-  #content #artist_list {
-    width: 300px;
+    width: 350px;
+    height: 18px;
+    float: left; }
+  #content #artist_credit span {
+    color: #409f89; }
+  #content #artist_list li {
+    width: 500px;
     height: 11px;
     float: right;
-    background-color: #409f89; }
+    background-color: #409f89;
+    position: relative; }
+  #content .font_pad {
+    margin-top: 10px; }
+  #content .a_circle_1 {
+    width: 8px;
+    height: 8px;
+    color: #343434;
+    border-radius: 50%;
+    background-color: #df6c4f;
+    float: right;
+    font-size: .8em;
+    line-height: 17px;
+    text-align: right; }
+  #content .a_circle_2 {
+    width: 8px;
+    height: 8px;
+    color: #343434;
+    border-radius: 50%;
+    background-color: #ecd06f;
+    float: right;
+    font-size: .8em;
+    line-height: 17px;
+    text-align: right;
+    margin-right: 50px; }
+  #content .a_circle_3 {
+    width: 8px;
+    height: 8px;
+    color: #343434;
+    border-radius: 50%;
+    background-color: #409f89;
+    float: right;
+    font-size: .8em;
+    line-height: 17px;
+    text-align: right;
+    margin-right: 50px; }
+  #content .a_circle_4 {
+    width: 8px;
+    height: 8px;
+    color: #343434;
+    border-radius: 50%;
+    background-color: #1a99aa;
+    float: right;
+    font-size: .8em;
+    line-height: 17px;
+    text-align: right;
+    margin-right: 50px; }
 
 body, html {
   background-color: #dee0df;
