@@ -101,6 +101,21 @@
     display: inline-block;
     width: 33px;
     background-color: transparent; }
+  #content #content_bottom {
+    width: 100%;
+    position: relative;
+    background-color: #ecd06f;
+    float: left; }
+  #content #artist_credit {
+    width: 300px;
+    height: 11px;
+    float: left;
+    background-color: #1a99aa; }
+  #content #artist_list {
+    width: 300px;
+    height: 11px;
+    float: right;
+    background-color: #409f89; }
 
 body, html {
   background-color: #dee0df;

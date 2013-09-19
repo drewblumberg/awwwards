@@ -142,6 +142,30 @@
       background-color: transparent;
     }
 
+    #content_bottom
+    {
+      width: 100%;
+      position: relative;
+      background-color: $gold;
+      // padding-top:24px;
+      float:left;
+    }
+
+      #artist_credit
+      {
+        width:300px;
+        height:11px;
+        float:left;
+        background-color: $ocean_blue;
+      }
+
+      #artist_list
+      {
+        width:300px;
+        height:11px;
+        float:right;
+        background-color: $greenish;
+      }
 
 
 
