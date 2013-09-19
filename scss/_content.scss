@@ -9,7 +9,20 @@
     width:459px;
     height:287px;
     float:left;
+    position:relative;
   }
+
+  #ribbon
+  {
+    width:75px;
+    height:126px;
+    position:absolte;
+    margin-top:75px;
+    margin-left:-20px;
+
+
+  }
+
   #transform_circles
   {
     background:url(../images/transform_circles.png);
