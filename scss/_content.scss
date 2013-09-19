@@ -29,6 +29,7 @@
   ul
   {
     padding:0px;
+    margin:0px;
   }
   span
   {
@@ -40,24 +41,21 @@
     {
       display:inline;
       line-height: 30px;
-      // padding-right:30px;
     }
 
-    span li:nth-of-type(1)
+    span li:nth-of-type(1) /*1st row 1st li*/
     {
-      color: green;
+      color: $text_color;
       display:inline-block;
-      // text-align: left;
       width:153px;
-      background-color: black;
     }
 
-    span li:nth-of-type(2)
+    span li :nth-of-type(2) /*2nd row 1st li only*/
     {
-      color: red;
+      color: $link_color;
       display:inline-block;
       width:195px;
-      background-color: black;
+      background-color: white;
     }
 
     span li:nth-of-type(3)
