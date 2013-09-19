@@ -34,8 +34,12 @@
     display: inline-block;
     width: 153px;
     background-color: transparent; }
+  #content #text_alone {
+    color: #343434;
+    font-style: normal; }
   #content span li:nth-of-type(2) {
     color: #409f89;
+    font-style: italic;
     display: inline-block;
     width: 195px;
     background-color: transparent; }
@@ -68,7 +72,8 @@
     float: left;
     font-size: .8em;
     line-height: 17px;
-    text-align: center; }
+    text-align: center;
+    margin-left: 5px; }
   #content .circle_3 {
     width: 16px;
     height: 16px;
@@ -78,7 +83,8 @@
     float: left;
     font-size: .8em;
     line-height: 17px;
-    text-align: center; }
+    text-align: center;
+    margin-left: 5px; }
   #content .circle_4 {
     width: 16px;
     height: 16px;
@@ -88,12 +94,13 @@
     float: left;
     font-size: .8em;
     line-height: 17px;
-    text-align: center; }
+    text-align: center;
+    margin-left: 5px; }
   #content span li:nth-of-type(5) {
-    color: red;
+    color: #343434;
     display: inline-block;
     width: 33px;
-    background-color: black; }
+    background-color: transparent; }
 
 body, html {
   background-color: #dee0df;

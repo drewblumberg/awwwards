@@ -51,9 +51,17 @@
       background-color: transparent;
     }
 
+    #text_alone /*top row text that doesn't
+    change color w/rest*/
+    {
+      color: $text_color;
+      font-style: normal;
+    }
+
     span li:nth-of-type(2)
     {
       color: $link_color;
+      font-style: italic;
       display:inline-block;
       width:195px;
       background-color: transparent;
@@ -97,6 +105,7 @@
         font-size:.8em;
         line-height: 17px;
         text-align: center;
+        margin-left:5px;
       }
       .circle_3
       {
@@ -109,6 +118,7 @@
         font-size:.8em;
         line-height: 17px;
         text-align: center;
+        margin-left:5px;
       }
       .circle_4
       {
@@ -121,14 +131,15 @@
         font-size:.8em;
         line-height: 17px;
         text-align: center;
+        margin-left:5px;
       }
 
     span li:nth-of-type(5)
     {
-      color: red;
+      color: $text_color;
       display:inline-block;
       width:33px;
-      background-color: black;
+      background-color: transparent;
     }
 
 
