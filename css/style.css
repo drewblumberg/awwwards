@@ -70,31 +70,42 @@ header #tagline {
 
 #nav_bottom > ul {
   float: left;
-  padding: 0;
-  padding-bottom: 12px;
+  margin: 0px;
+  /*I added this is take out the auto margin that was given by default*/
   list-style: none;
+  padding: 15px 0px 15px 0px;
+                          /*you needed this padding for the ul
+and for the li, the ul padding made it
+ so the space was added but the borders
+  weren't affected because their styled by
+   the li so I also added padding to the li
+    which extened the right borders :);*/
   border-bottom: 1px solid #9a9a9a; }
-  #nav_bottom > ul li {
-    display: inline;
-    margin-right: 25px; }
-    #nav_bottom > ul li a {
-      text-decoration: none;
-      color: #343434;
-      font-size: 14px; }
+
+#nav_bottom > ul li {
+  display: inline;
+  padding: 15px 10px 15px 0px;
+                            /*adjust as needed you needed
+padding here and in the ul hope this works*/
+  /*margin-right: 25px; margin is not needed when trying to push out from the inside :)*/
+  border-right: 1px solid #9a9a9a; }
+
+#nav_bottom > ul li a {
+  text-decoration: none;
+  color: #343434;
+  font-size: 14px; }
 
 .float_right > a > img {
-  margin-top: 17px;
-  padding-bottom: 0px;
-  border-bottom: 1px solid #9a9a9a;
-  width: 403px; }
+  margin-top: 3px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #9a9a9a; }
 
 .border {
   border-bottom: 1px solid #9a9a9a; }
 
-.nav_bottom_left {
+/*YOU DONT NEED THIS CLASS .nav_bottom_left {
   border-right: 1px solid #9a9a9a;
-  margin-right: 15px; }
-
+  margin-right: 15px; }*/
 #content {
   padding: 40px 0px 40px 0px;
   font-size: .9em; }
