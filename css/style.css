@@ -98,7 +98,7 @@ padding here and in the ul hope this works*/
 .float_right > a > img {
   margin-top: 3px;
   padding-bottom: 1.5px;
-  border-bottom: 1px solid #9a9a9a; }
+  /*border-bottom: 1px solid #9a9a9a; */ }
 
 .border {
   border-bottom: 1px solid #9a9a9a; }
